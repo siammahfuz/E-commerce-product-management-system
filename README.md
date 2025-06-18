@@ -1,4 +1,4 @@
-🚀 E-commerce Product Management System
+E-commerce Product Management System
 
 A robust and scalable E-commerce Product Management platform built with Laravel 12, Vue.js / Laravel Blade, and styled using Tailwind CSS. This project demonstrates advanced Laravel concepts such as many-to-many relationships, clean API architecture, and responsive, modern frontend design.
 📖 Project Overview
@@ -25,7 +25,7 @@ NPM	Frontend asset compilation
 1️⃣ Clone the Repository
 
 git clone https://github.com/siammahfuz/E-commerce-product-management-system.git
-cd your-repository
+cd yE-commerce-product-management-system
 
 2️⃣ Install Dependencies
 
@@ -58,9 +58,6 @@ http://localhost:8000
     categories (id, name, created_at, updated_at)
 
     category_product (Pivot Table)
-📜 License
-
-This project is licensed under the MIT License.
 👨‍💻 Author
 
 Md Mahfuzur Rahman Siam
