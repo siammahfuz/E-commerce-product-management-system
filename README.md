@@ -25,7 +25,7 @@ NPM	Frontend asset compilation
 1️⃣ Clone the Repository
 
 git clone https://github.com/siammahfuz/E-commerce-product-management-system.git
-cd yE-commerce-product-management-system
+cd E-commerce-product-management-system
 
 2️⃣ Install Dependencies
 
