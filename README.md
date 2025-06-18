@@ -1,94 +1,25 @@
-# 🛒 E-commerce Product Management System
+# Laravel + Vue Starter Kit
 
-A modern, web-based **Product & Category Management System** built using **Laravel 12**, **Vue.js 3**, and **Tailwind CSS**. This application enables dynamic management of products and categories with a many-to-many relationship. It features a responsive UI, Vue-powered frontend interactions, and clean backend logic.
+## Introduction
 
----
+Our Vue starter kit provides a robust, modern starting point for building Laravel applications with a Vue frontend using [Inertia](https://inertiajs.com).
 
-## 🚀 Key Features
+Inertia allows you to build modern, single-page Vue applications using classic server-side routing and controllers. This lets you enjoy the frontend power of Vue combined with the incredible backend productivity of Laravel and lightning-fast Vite compilation.
 
-- Robust Laravel 12 backend with RESTful API structure  
-- Vue 3-based dynamic frontend components  
-- Tailwind CSS for modern, responsive design  
-- CRUD operations for:
-  - 🛍️ Products
-  - 📂 Categories
-- Many-to-Many relationship between Products and Categories  
-- Admin dashboard with clean UX/UI  
-- Optional: Blade or Vue-based rendering depending on preference  
+This Vue starter kit utilizes Vue 3 and the Composition API, TypeScript, Tailwind, and the [shadcn-vue](https://www.shadcn-vue.com) component library.
 
----
+## Official Documentation
 
-## 🧰 Tech Stack
+Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
 
-| Layer         | Technology              |
-|---------------|--------------------------|
-| Backend       | Laravel 12               |
-| Frontend      | Vue.js 3, Laravel Blade  |
-| Styling       | Tailwind CSS             |
-| Database      | MySQL (or Laravel-supported DBs) |
-| Build Tools   | Vite, NPM                |
-| Optional Auth | Laravel Breeze/Sanctum   |
+## Contributing
 
----
+Thank you for considering contributing to our starter kit! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## ⚙️ Installation Guide
+## Code of Conduct
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/siammahfuz/E-commerce-product-management-system.git
-cd ecommerce-product-management
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-2. Install Backend Dependencies
-bash
-Copy
-Edit
-composer install
-3. Install Frontend Dependencies
-bash
-Copy
-Edit
-npm install
-npm run dev
-4. Configure Environment
-bash
-Copy
-Edit
-cp .env.example .env
-php artisan key:generate
-🔧 Update your .env file with correct DB credentials.
+## License
 
-5. Run Migrations
-bash
-Copy
-Edit
-php artisan migrate
-6. Serve the Application
-bash
-Copy
-Edit
-php artisan serve
-The app will be available at http://localhost:8000.
-
-📁 Project Structure
-swift
-Copy
-Edit
-├── app/Http/Controllers/
-│   ├── ProductController.php
-│   └── CategoryController.php
-├── database/migrations/
-│   ├── create_products_table.php
-│   ├── create_categories_table.php
-│   └── create_category_product_table.php
-├── resources/js/components/
-│   └── ProductComponent.vue
-├── resources/views/products/
-│   └── index.blade.php
-├── routes/
-│   └── web.php
-
-👤 Author
-Md Mahfuzur Rahman Siam
-Computer Engineer
-📧 Email: ksiam3409@gmail.com
-Portfolio: https://siammahfuz.github.io/
+The Laravel + Vue starter kit is open-sourced software licensed under the MIT license.
