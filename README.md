@@ -60,7 +60,7 @@ http://localhost:8000
     category_product (Pivot Table)
 👨‍💻 Author
 
-Md Mahfuzur Rahman Siam
-Computer Engineer
+Md Mahfuzur Rahman Siam,
+Computer Engineer,
 Email: ksiam3409@gmail.com
 Portfolio: https://siammahfuz.github.io/
